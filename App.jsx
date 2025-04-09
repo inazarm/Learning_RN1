@@ -1,19 +1,24 @@
 import { View, Text,Button } from 'react-native'
 import React from 'react'
+import First from './src/components/first'
 
-// const App = () => {
-//   return (
-//   )
-// }
-
-const App2 =()=>{
+const App = () =>{
     return(
         <View>
-            <Text style={{fontSize:30,fontWeight:'bold'}}>Thiis my new created App2 component</Text>
-            <Button title="Press"/>
-        </View>
-        
+        <Text style={{fontSize:30,fontWeight:'bold'}}>This is First component</Text>
+        <Button title="Press"/>
+        <First/>
+    </View>
     )
 }
 
-export default App2  
+// const NewComponent =()=>{
+//     return(
+//         <View>
+//         <Text style={{fontSize:30,fontWeight:'bold'}}>This is Second Component</Text>
+        
+//     </View>
+//     )
+// }
+
+export default App

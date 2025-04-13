@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Destructuring</title>
+    <script>
+        function personInfo(){
+            return ["Nazar","Muhammad","32"];
+        }
+
+        // let [fname,lname,age]=personInfo();
+        // console.log(fname);
+        // console.log(lname);
+        // console.log(age);
+
+        //set detault value
+        let info=["Nazar","Muhammad","32","Actual Value"]
+        let [fname,lname,age,extra="Default Value"]=info;
+         console.log(fname);
+        console.log(lname);
+        console.log(age);
+        console.log(extra); // this will show undefined if no value provided in 
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

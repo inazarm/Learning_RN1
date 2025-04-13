@@ -9,7 +9,7 @@ const Props = () => {
     <View>
       <Text style={{fontSize:30}}>Props</Text>
       <Button title='Counter' onPress={()=>setCount(count+1)}/>
-      <Button title='Item' onPress={()=>setItem(item*10)}/>
+      <Button title='Item' onPress={()=>setItem(item * 10)}/>
       <Child data={count} Item={item}/>
     </View>
   )

@@ -5,6 +5,7 @@ import UseStateHook from './src/components/UseStateHook'
 import Props from './src/components/Props'
 import InputText from './src/components/InputText'
 import Style from './src/components/Style'
+import FlatListScreen from './src/components/FlatListScreen'
 
 // import First from './src/components/first'
 
@@ -16,7 +17,8 @@ const App = () =>{
         {/* <UseStateHook/>  */}
         {/* <Props/> */}
         {/* <InputText/> */}
-        <Style/>
+        {/* <Style/> */}
+        <FlatListScreen/>
     </View>
     )
 }

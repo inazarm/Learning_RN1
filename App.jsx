@@ -4,6 +4,7 @@ import OnPress from './src/components/OnPress'
 import UseStateHook from './src/components/UseStateHook'
 import Props from './src/components/Props'
 import InputText from './src/components/InputText'
+import Style from './src/components/Style'
 
 // import First from './src/components/first'
 
@@ -14,7 +15,8 @@ const App = () =>{
         {/* <OnPress/> */}
         {/* <UseStateHook/>  */}
         {/* <Props/> */}
-        <InputText/>
+        {/* <InputText/> */}
+        <Style/>
     </View>
     )
 }

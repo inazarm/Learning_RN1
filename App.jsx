@@ -6,6 +6,7 @@ import Props from './src/components/Props'
 import InputText from './src/components/InputText'
 import Style from './src/components/Style'
 import FlatListScreen from './src/components/FlatListScreen'
+import SectionListScreen from './src/components/SectionListScreen'
 
 // import First from './src/components/first'
 
@@ -18,7 +19,8 @@ const App = () =>{
         {/* <Props/> */}
         {/* <InputText/> */}
         {/* <Style/> */}
-        <FlatListScreen/>
+        {/* <FlatListScreen/> */}
+        <SectionListScreen/>
     </View>
     )
 }

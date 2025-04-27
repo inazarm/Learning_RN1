@@ -7,6 +7,7 @@ import InputText from './src/components/InputText'
 import Style from './src/components/Style'
 import FlatListScreen from './src/components/FlatListScreen'
 import SectionListScreen from './src/components/SectionListScreen'
+import LoginForm from './src/components/LoginForm'
 
 // import First from './src/components/first'
 
@@ -20,7 +21,8 @@ const App = () =>{
         {/* <InputText/> */}
         {/* <Style/> */}
         {/* <FlatListScreen/> */}
-        <SectionListScreen/>
+        {/* <SectionListScreen/> */}
+        <LoginForm/>
     </View>
     )
 }

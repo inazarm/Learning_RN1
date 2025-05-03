@@ -1,6 +1,7 @@
 import { View, Text,Button } from 'react-native'
 import React from 'react'
 import ContactListScreen from './src/screens/Contact/ContactListScreen'
+import Grid from './src/components/Grid'
 // import OnPress from './src/components/OnPress'
 // import UseStateHook from './src/components/UseStateHook'
 // import Props from './src/components/Props'
@@ -14,7 +15,7 @@ import ContactListScreen from './src/screens/Contact/ContactListScreen'
 
 const App = () =>{
     return(
-        <View>
+        <View style={{flex:1}}> 
         {/* <Text style={{fontSize:30,fontWeight:'bold'}}>This is First component</Text> */}
         {/* <OnPress/> */}
         {/* <UseStateHook/>  */}
@@ -24,7 +25,8 @@ const App = () =>{
         {/* <FlatListScreen/> */}
         {/* <SectionListScreen/> */}
         {/* <LoginForm/> */}
-        <ContactListScreen/>
+        {/* <ContactListScreen/> */}
+        <Grid/>
     </View>
     )
 }
